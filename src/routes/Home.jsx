@@ -14,7 +14,7 @@ const Home = () => {
     const data = response.data;
     setLivros(data)
   }catch(error){
-    console.log("error");
+    console.log("error!");
   }}
   useEffect(()=> {
     getLivros()
